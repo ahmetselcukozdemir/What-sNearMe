@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "173436472474",
+    "firebase_url": "https://whatsnearme-e1e76.firebaseio.com",
+    "project_id": "whatsnearme-e1e76",
+    "storage_bucket": "whatsnearme-e1e76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173436472474:android:7237d36e45bf887d",
+        "android_client_info": {
+          "package_name": "com.whatsnearme.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173436472474-v3l9ksihej9ffgte65iout7omh8tj8qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Nu6ETPeN0WAD_M1KyhTMpCF-WrCTrK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

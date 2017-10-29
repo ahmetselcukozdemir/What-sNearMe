@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">What\'s Near Me ?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="coded_with">Coded with love.</string>
+    <string name="uyari">Do not forget to turn on your phone\'s internet connection and location.</string>
+    <string name="turistik">TOURİST PLACES</string>
+    <string name="restau">RESTAURANTS</string>
+    <string name="cami">MOSQUE</string>
+    <string name="muze">MUSEUM</string>
+    <string name="otel">HOTEL</string>
+    <string name="belediye">CİTY HALLS</string>
+    <string name="tiyatro">THEATERS</string>
+    <string name="hastane">HOSPİTAL</string>
+    <string name="kütüphane">LİBRARY</string>
+    <string name="eccane">PHARMACY</string>
+    <string name="sinema">CİNEMA</string>
+    <string name="veteriner">VETERINARY</string>
+    <string name="avm">SHOPPİNG CENTERS</string>
+    <string name="spor">SPORT COMPLEX</string>
+    <string name="uni">UNİVERSİTY</string>
+    <string name="polis">POLİCE CENTERS</string>
+    <string name="askeri">MİLİTARY BASE</string>
+    <string name="türbe">SHRİNE</string>
+    <string name="banka">BANK</string>
+    <string name="giyim">BOUTIQUE</string>
+    <string name="temizleme">DRY CLEANER</string>
+    <string name="cicek">FLORIST</string>
+    <string name="cafe">CAFE</string>
+    <string name="train">TRAİN STATİON</string>
+
+</resources>

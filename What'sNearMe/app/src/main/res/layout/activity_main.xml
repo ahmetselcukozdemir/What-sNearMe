@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+        tools:context="com.example.aso.whatsnearme.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/arts"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_arts"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_arts"
+                android:text="@string/turistik"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cafe"
+                android:scaleType = "centerCrop"
+                android:onClick="btn_cafe"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_cafe"
+                android:text="@string/cafe"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="-9dp"
+                android:src="@drawable/restaurant2"
+                android:onClick="btn_restaurant"
+                android:scaleType = "centerCrop" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/restau"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_restaurant"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mosque"
+                android:onClick="btn_mosque"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/cami"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_mosque"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_museum"
+                android:src="@drawable/museum"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/muze"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_museum"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_hotel"
+                android:src="@drawable/hotel"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/otel"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_hotel" />
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_cityhalls"
+                android:src="@drawable/cityhalls"
+                android:scaleType = "centerCrop" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/belediye"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_cityhalls"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/theaters"
+                android:scaleType = "centerCrop"
+                android:onClick="btn_theaters"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tiyatro"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_theaters"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hospital"
+                android:scaleType = "centerCrop"
+                android:onClick="btn_hospital"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/hastane"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_hospital"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_library"
+                android:src="@drawable/library"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/kütüphane"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_library" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_pharmacy"
+                android:src="@drawable/eczanee"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/eccane"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_pharmacy" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_movie"
+                android:src="@drawable/cinema"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sinema"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_movie" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="btn_petshop"
+                android:src="@drawable/petshop"
+                android:scaleType = "centerCrop" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/veteriner"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp"
+                android:background="#000099"
+                android:onClick="btn_petshop" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/avm"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_avm"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_avm"
+                android:text="@string/avm"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/stadium"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_stadium"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_stadium"
+                android:text="@string/spor"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/university"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_university"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_university"
+                android:text="@string/uni"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/police"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_police"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_police"
+                android:text="@string/polis"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/military"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_militarybase"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_militarybase"
+                android:text="@string/askeri"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/shrine"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_shrine"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_shrine"
+                android:text="@string/türbe"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bank"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_bank"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_bank"
+                android:text="@string/banka"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/boutique"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_boutique"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_boutique"
+                android:text="@string/giyim"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/drycleaner"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_drycleaner"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_drycleaner"
+                android:text="@string/temizleme"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/flowersshop"
+
+                android:scaleType = "centerCrop"
+                android:onClick="btn_flowershop"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#000099"
+                android:gravity="center"
+                android:onClick="btn_flowershop"
+                android:text="@string/cicek"
+                android:textColor="#f0f0f0"
+                android:textSize="25dp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
